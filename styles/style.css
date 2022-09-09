@@ -36,6 +36,7 @@
 }
 
 .header__title {
+  margin: 0;
   margin-left: 64px;
   width: 730px;
   font-size: 102px;
@@ -53,7 +54,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .header__link {
@@ -164,8 +165,9 @@
 
 .table__text {
   margin: 0;
+  line-height: 1.2;
   font-size: 18px;
-  font-weight: 1.2;
+  font-weight: normal;
   padding-top: 20px;
 }
 
@@ -227,12 +229,10 @@
 .section-title_theme_dark {
   color: white;
   margin: 90px auto 0;
-  position: relative;
 }
 
 .section-subtitle_theme_dark {
   color: white;
-  position: relative;
 }
 
 .table_theme_dark {
